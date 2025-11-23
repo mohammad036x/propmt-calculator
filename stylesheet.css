@@ -1,0 +1,104 @@
+.bubblegum-sans-regular {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    font-family: Bubblegum Sans;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.border{
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(122, 122, 122);
+    height: 300px;
+    width: 800px;
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.name{
+    border: 3px solid rgb(255, 255, 255);
+    height: 45px;
+    width: 500px;
+    margin-left: 140px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: #c0d2e4;
+}
+.sum{
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: #EEAECA;
+
+}
+.sum:hover{
+    background-color: rgb(155, 156, 158);
+}
+.sub{
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    background-color: #EEAECA;
+}
+.sub:hover{
+    background-color: rgb(155, 156, 158);
+}
+.product{
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    background-color: #EEAECA;
+}
+.product:hover{
+    background-color: rgb(155, 156, 158);
+}
+.divide{
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    background-color: #EEAECA;
+}
+.divide:hover{
+    background-color: rgb(155, 156, 158);
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
